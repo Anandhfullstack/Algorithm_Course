@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee965f0-0780-4337-a445-34a880895c6f" name="Changes" comment="First Assignment got 100%">
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnionFind.java" afterDir="false" />
+    <list default="true" id="8ee965f0-0780-4337-a445-34a880895c6f" name="Changes" comment="Union Find is initiated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomWord">
+  <component name="RunManager" selected="Application.Percolation">
     <configuration name="HelloGoodbye" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloGoodbye" />
       <module name="AlgorithmCourseI" />
@@ -81,6 +82,13 @@
     </configuration>
     <configuration name="HelloWorld (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="AlgorithmCourseI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Percolation" />
       <module name="AlgorithmCourseI" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,6 +116,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Percolation" />
       <item itemvalue="Application.RandomWord" />
       <item itemvalue="Application.HelloGoodbye" />
       <item itemvalue="Application.HelloWorld (1)" />
@@ -115,6 +124,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Percolation" />
         <item itemvalue="Application.RandomWord" />
         <item itemvalue="Application.HelloGoodbye" />
         <item itemvalue="Application.HelloWorld (1)" />
@@ -132,7 +142,8 @@
       <updated>1677382454543</updated>
       <workItem from="1677382455938" duration="4960000" />
       <workItem from="1677406699169" duration="4532000" />
-      <workItem from="1677749087227" duration="73000" />
+      <workItem from="1677749087227" duration="628000" />
+      <workItem from="1678033364440" duration="5760000" />
     </task>
     <task id="LOCAL-00001" summary="First Assignment">
       <created>1677387604429</created>
@@ -148,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677417754244</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Union Find is initiated">
+      <created>1677749179110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677749179110</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Assignment" />
     <MESSAGE value="First Assignment got 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Assignment got 100%" />
+    <MESSAGE value="Union Find is initiated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Union Find is initiated" />
   </component>
 </project>
