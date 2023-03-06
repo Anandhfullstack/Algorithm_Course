@@ -5,10 +5,10 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 public class Percolation {
 
 
-    private WeightedQuickUnionUF wQuickFindGrid;
+    private WeightedQuickUnionUF wQuickFindBox;
     private WeightedQuickUnionUF wQuickFindFull;
-    private int gridSize;
-    private int gridSquared;
+    private int boxSize;
+    private int boxSquared;
     private int vTop;
     private int vBottom;
     private int openSitesCount;
@@ -22,15 +22,19 @@ public class Percolation {
     }
     public Percolation(int n){
         if (n <= 0) { throw new IllegalArgumentException("n must be greater than 0");}
-        gridSize = n;
-        gridSquared = n*n;
-        box= new boolean[gridSize][gridSize];
-        wQuickFindGrid= new WeightedQuickUnionUF(gridSquared+2);
-        wQuickFindFull=new WeightedQuickUnionUF(gridSquared+1);
-        vTop=gridSquared;
-        vBottom=gridSquared;
+        boxSize = n;
+        boxSquared = n*n;
+        box= new boolean[boxSize][boxSize];
+        wQuickFindBox= new WeightedQuickUnionUF(boxSquared+2);
+        wQuickFindFull= new WeightedQuickUnionUF(boxSquared+1);
+        vTop=boxSquared;
+        vBottom=boxSquared;
         openSitesCount =0;
 
+    }
+
+    public boolean isOpen(int row, int col){
+        return box[row][col];
     }
 
 }
