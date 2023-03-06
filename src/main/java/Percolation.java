@@ -19,6 +19,7 @@ public class Percolation {
         Percolation p =new Percolation(5);
 
 
+
     }
     public Percolation(int n){
         if (n <= 0) { throw new IllegalArgumentException("n must be greater than 0");}
@@ -30,11 +31,25 @@ public class Percolation {
         vTop=boxSquared;
         vBottom=boxSquared;
         openSitesCount =0;
+//        for(int i=0; i < box.length; i++){
+//            for(int j=0; j<box.length; j++){
+//                System.out.printf("---"+i+"----"+j);
+//                System.out.printf(" "+box[i][j]);
+//                System.out.println("");
+//
+//            }
+//        }
+
+
 
     }
 
     public boolean isOpen(int row, int col){
         return box[row][col];
+    }
+
+    public int numberOfOpenSites(){
+        return openSitesCount;
     }
 
 }

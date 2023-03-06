@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee965f0-0780-4337-a445-34a880895c6f" name="Changes" comment="Percolation is improved">
+    <list default="true" id="8ee965f0-0780-4337-a445-34a880895c6f" name="Changes" comment="isOpen function is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Percolation.java" afterDir="false" />
     </list>
@@ -144,7 +144,7 @@
       <workItem from="1677406699169" duration="4532000" />
       <workItem from="1677749087227" duration="628000" />
       <workItem from="1678033364440" duration="6464000" />
-      <workItem from="1678119108291" duration="1520000" />
+      <workItem from="1678119108291" duration="2928000" />
     </task>
     <task id="LOCAL-00001" summary="First Assignment">
       <created>1677387604429</created>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678120077064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="isOpen function is added">
+      <created>1678120812741</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678120812741</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +218,7 @@
     <MESSAGE value="Union Find is initiated" />
     <MESSAGE value="Percolation constructor is finished" />
     <MESSAGE value="Percolation is improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Percolation is improved" />
+    <MESSAGE value="isOpen function is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="isOpen function is added" />
   </component>
 </project>
