@@ -11,7 +11,7 @@ public class Percolation {
     private int gridSquared;
     private int vTop;
     private int vBottom;
-    private int openSites;
+    private int openSitesCount;
     private boolean[][] box;
     private WeightedQuickUnionUF unionFinds;
 
@@ -29,6 +29,7 @@ public class Percolation {
         wQuickFindFull=new WeightedQuickUnionUF(gridSquared+1);
         vTop=gridSquared;
         vBottom=gridSquared;
+        openSitesCount =0;
 
     }
 
