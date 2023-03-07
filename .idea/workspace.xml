@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee965f0-0780-4337-a445-34a880895c6f" name="Changes" comment="Percolation constructor is finished">
+    <list default="true" id="8ee965f0-0780-4337-a445-34a880895c6f" name="Changes" comment="numberOfOpenSites is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Percolation.java" afterDir="false" />
     </list>
@@ -90,6 +90,7 @@
     <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Percolation" />
       <module name="AlgorithmCourseI" />
+      <option name="PROGRAM_PARAMETERS" value="5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,7 +145,7 @@
       <workItem from="1677406699169" duration="4532000" />
       <workItem from="1677749087227" duration="628000" />
       <workItem from="1678033364440" duration="6464000" />
-      <workItem from="1678119108291" duration="875000" />
+      <workItem from="1678119108291" duration="4800000" />
     </task>
     <task id="LOCAL-00001" summary="First Assignment">
       <created>1677387604429</created>
@@ -174,7 +175,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678039250462</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Percolation is improved">
+      <created>1678120030948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678120030948</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Percolation is improved">
+      <created>1678120077064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678120077064</updated>
+    </task>
+    <task id="LOCAL-00007" summary="isOpen function is added">
+      <created>1678120812741</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678120812741</updated>
+    </task>
+    <task id="LOCAL-00008" summary="numberOfOpenSites is added">
+      <created>1678122125757</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678122125757</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +225,9 @@
     <MESSAGE value="First Assignment got 100%" />
     <MESSAGE value="Union Find is initiated" />
     <MESSAGE value="Percolation constructor is finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Percolation constructor is finished" />
+    <MESSAGE value="Percolation is improved" />
+    <MESSAGE value="isOpen function is added" />
+    <MESSAGE value="numberOfOpenSites is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="numberOfOpenSites is added" />
   </component>
 </project>
