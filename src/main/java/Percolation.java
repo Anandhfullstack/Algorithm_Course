@@ -4,8 +4,6 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 
 public class Percolation {
-
-
     private WeightedQuickUnionUF wQuickFindBox;
     private WeightedQuickUnionUF wQuickFindFull;
     private int boxSize;
@@ -16,26 +14,26 @@ public class Percolation {
     private boolean[][] box;
     private WeightedQuickUnionUF unionFinds;
 
-//    public static void main(String[] args) {
-//        int size = Integer.parseInt(args[0]);
-//
-//        Percolation percolation = new Percolation(size);
-//        int argCount = args.length;
-//        for (int i = 1; argCount >= 2; i += 2) {
-//            int row = Integer.parseInt(args[i]);
-//            int col = Integer.parseInt(args[i + 1]);
-//            System.out.printf("Adding row: %d  col: %d %n", row, col);
-//            percolation.open(row, col);
-//            if (percolation.percolates()) {
-//                System.out.printf("%nThe System percolates %n");
-//            }
-//            argCount -= 2;
-//        }
-//        if (!percolation.percolates()) {
-//            System.out.print("Does not percolate %n");
-//        }
-//
-//    }
+    public static void main(String[] args) {
+        int size = Integer.parseInt(args[0]);
+
+        Percolation percolation = new Percolation(size);
+        int argCount = args.length;
+        for (int i = 1; argCount >= 2; i += 2) {
+            int row = Integer.parseInt(args[i]);
+            int col = Integer.parseInt(args[i + 1]);
+            System.out.printf("Adding row: %d  col: %d %n", row, col);
+            percolation.open(row, col);
+            if (percolation.percolates()) {
+                System.out.printf("%nThe System percolates %n");
+            }
+            argCount -= 2;
+        }
+        if (!percolation.percolates()) {
+            System.out.print("Does not percolate %n");
+        }
+
+    }
     public Percolation(int n){
         if (n <= 0) { throw new IllegalArgumentException("n must be greater than 0");}
         boxSize = n;
@@ -146,11 +144,12 @@ public class Percolation {
     }
 
     public boolean percolates() {
-        return wQuickFindBox.connected(vTop, vBottom);
+        return wQuickFindBox.find(vTop) == wQuickFindBox.find(vBottom);
     }
 
     public boolean isFull(int row, int col) {
         validateSite(row, col);
-        return wQuickFindFull.connected(vTop, flattenGrid(row, col) - 1);
+
+        return wQuickFindFull.find(vTop)==wQuickFindFull.find(flattenGrid(row, col) - 1);
     }
 }
