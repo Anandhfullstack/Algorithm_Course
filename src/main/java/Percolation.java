@@ -1,5 +1,5 @@
-import edu.princeton.cs.algs4.StdRandom;
-import edu.princeton.cs.algs4.StdStats;
+//import edu.princeton.cs.algs4.StdRandom;
+//import edu.princeton.cs.algs4.StdStats;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 
@@ -78,13 +78,11 @@ public class Percolation {
             throw new IndexOutOfBoundsException("Index is out of bounds");
         }
     }
-
     private boolean isOnGrid(int row, int col) {
         int shiftRow = row - 1;
         int shiftCol = col - 1;
         return (shiftRow >= 0 && shiftCol >= 0 && shiftRow < boxSize && shiftCol < boxSize);
     }
-
     public void open(int row, int col) {
         validateSite(row, col);
 
@@ -149,7 +147,6 @@ public class Percolation {
 
     public boolean isFull(int row, int col) {
         validateSite(row, col);
-
         return wQuickFindFull.find(vTop)==wQuickFindFull.find(flattenGrid(row, col) - 1);
     }
 }
