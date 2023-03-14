@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee965f0-0780-4337-a445-34a880895c6f" name="Changes" comment="numberOfOpenSites is added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PercolationStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Percolation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +146,7 @@
       <workItem from="1678033364440" duration="6464000" />
       <workItem from="1678119108291" duration="6705000" />
       <workItem from="1678176116709" duration="1799000" />
+      <workItem from="1678376200465" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="First Assignment">
       <created>1677387604429</created>
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678123958245</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="numberOfOpenSites is added">
+      <created>1678376241764</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678376241764</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
